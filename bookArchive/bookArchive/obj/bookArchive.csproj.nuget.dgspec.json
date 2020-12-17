@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Onur\\source\\repos\\bookArchive\\bookArchive\\bookArchive.csproj": {}
+    "C:\\Users\\Onur\\Documents\\GitHub\\bookArchive\\bookArchive\\bookArchive\\bookArchive.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Onur\\source\\repos\\bookArchive\\bookArchive\\bookArchive.csproj": {
+    "C:\\Users\\Onur\\Documents\\GitHub\\bookArchive\\bookArchive\\bookArchive\\bookArchive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Onur\\source\\repos\\bookArchive\\bookArchive\\bookArchive.csproj",
+        "projectUniqueName": "C:\\Users\\Onur\\Documents\\GitHub\\bookArchive\\bookArchive\\bookArchive\\bookArchive.csproj",
         "projectName": "bookArchive",
-        "projectPath": "C:\\Users\\Onur\\source\\repos\\bookArchive\\bookArchive\\bookArchive.csproj",
+        "projectPath": "C:\\Users\\Onur\\Documents\\GitHub\\bookArchive\\bookArchive\\bookArchive\\bookArchive.csproj",
         "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Onur\\source\\repos\\bookArchive\\bookArchive\\obj\\",
+        "outputPath": "C:\\Users\\Onur\\Documents\\GitHub\\bookArchive\\bookArchive\\bookArchive\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
