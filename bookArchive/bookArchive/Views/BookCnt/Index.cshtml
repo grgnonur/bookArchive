@@ -1,0 +1,38 @@
+﻿@using bookArchive.Models
+@model List<Book>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h1>Kitap Listesi</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Kitap İsmi</th>
+        <th>Yazarı</th>
+        <th>Kategori</th>
+        <th>Özet Bilgi</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+<tr>
+    <th>@item.id</th>
+    <th>@item.bookName</th>
+    <th>@item.author</th>
+    <th>@item.Category.categoryName</th>
+    <th>@item.description</th>
+
+    <th><a href="/BookCnt/Delete/@item.id" class="btn btn-danger">Sil</a></th>
+    <th><a href="/BookCnt/GetBook/@item.id" class="btn btn-success">Güncelle</a></th>
+
+</tr>
+
+    }
+</table>
+<br />
+<a href="/BookCnt/Create/" class="btn btn-info">Yeni Kitap Ekle</a>
+

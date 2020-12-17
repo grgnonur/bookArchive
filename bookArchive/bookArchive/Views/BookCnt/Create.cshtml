@@ -1,0 +1,22 @@
+﻿@model bookArchive.Models.Book
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<br />
+<form class="form-group" method="post">
+    <b>Kitap İsmi</b>
+    @Html.TextBoxFor(x => x.bookName, new { @class = "form-control" })
+    <b>Kitap Yazarı</b>
+    @Html.TextBoxFor(x => x.author, new { @class = "form-control" })
+    <b>Kitap Kategorisi</b>
+    @Html.DropDownListFor(x=>x.Category.id,(List<SelectListItem>)ViewBag.dgr, new { @class = "form-control"})
+    <b>Kitap Özeti</b>
+    @Html.TextBoxFor(x => x.description, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Kaydet</button>
+</form>
+

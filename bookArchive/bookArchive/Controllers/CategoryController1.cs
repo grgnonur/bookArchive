@@ -46,8 +46,8 @@ namespace bookArchive.Controllers
 
         public IActionResult Update(Category x)
         {
-            var bul = context.Categories.Find(x.id);
-            bul.categoryName = x.categoryName;
+            var cat = context.Categories.Find(x.id);
+            cat.categoryName = x.categoryName;
             context.SaveChanges();
             return RedirectToAction("Index");
         }

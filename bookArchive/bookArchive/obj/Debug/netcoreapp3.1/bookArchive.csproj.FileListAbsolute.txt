@@ -152,3 +152,6 @@ C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\net
 C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\netcoreapp3.1\Razor\Views\CategoryController1\Index.cshtml.g.cs
 C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\netcoreapp3.1\Razor\Views\CategoryController1\Create.cshtml.g.cs
 C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\netcoreapp3.1\Razor\Views\CategoryController1\GetCategory.cshtml.g.cs
+C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\netcoreapp3.1\Razor\Views\BookCnt\Index.cshtml.g.cs
+C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\netcoreapp3.1\Razor\Views\BookCnt\Create.cshtml.g.cs
+C:\Users\Onur\Documents\GitHub\bookArchive\bookArchive\bookArchive\obj\Debug\netcoreapp3.1\Razor\Views\BookCnt\GetBook.cshtml.g.cs
