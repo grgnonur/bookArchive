@@ -1,0 +1,15 @@
+﻿@model bookArchive.Models.Category
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<br />
+<form class="form-group" method="post">
+    <b>Kategori İsmi</b>
+    @Html.TextBoxFor(x=>x.categoryName, new { @class = "form-control"})
+    <br />
+    <button class="btn btn-success">Kaydet</button>
+</form>
+

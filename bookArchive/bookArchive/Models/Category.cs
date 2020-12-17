@@ -13,5 +13,7 @@ namespace bookArchive.Models
         public int id { get; set; }
         [Column(TypeName = "Varchar(20)")]
         public string categoryName { get; set; }
+
+        public IList<Book> Books { get; set; }
     }
 }

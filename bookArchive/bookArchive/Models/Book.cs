@@ -17,5 +17,8 @@ namespace bookArchive.Models
         public string author { get; set; }
         [Column(TypeName = "Varchar(500)")]
         public string description { get; set; }
+
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }

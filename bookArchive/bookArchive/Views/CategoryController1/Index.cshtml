@@ -1,0 +1,33 @@
+﻿@using bookArchive.Models
+@model List<Category>
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h1>Kategori Listesi</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Kategori İsmi</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.id</th>
+            <th>@item.categoryName</th>
+            <th><a href="/CategoryController1/Delete/@item.id" class="btn btn-danger">Sil</a></th>
+            <th><a href="/CategoryController1/GetCategory/@item.id" class="btn btn-success">Güncelle</a></th>
+
+        </tr>
+
+    }
+</table>
+<br />
+<a href="/CategoryController1/Create/" class="btn btn-info">Yeni Kategori Ekle</a>
+

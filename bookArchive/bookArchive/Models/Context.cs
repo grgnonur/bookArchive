@@ -8,6 +8,11 @@ namespace bookArchive.Models
 {
     public class Context:DbContext
     {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=bookarchive; integrated security=true;");
+        }
+
         public DbSet<Category> Categories { get; set; }
         public DbSet<Book> Books { get; set; }
     }
