@@ -7,3 +7,9 @@ ASP.Net Core MVC ve .Net Core Web Api kullanılarak yapıldı.
 
 
 DATA bilgileri MSSQL adlı dosyanın içindedir. Gerekli test dataları oluşturulup üstünde çalışılınmıştır.
+
+
+
+
+
+Ekran çıktıları BookArchiveSS adlı klasörün içindedir. 
