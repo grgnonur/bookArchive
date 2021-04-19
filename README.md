@@ -6,7 +6,7 @@ ASP.Net Core MVC ve .Net Core Web Api kullanılarak yapıldı.
 
 
 
-DATA bilgileri MSSQL adlı dosyanın içindedir. Gerekli test dataları oluşturulup üstünde çalışılınmıştır.
+DATA bilgileri MSSQL adlı dosyanın içindedir. Gerekli test dataları oluşturulup üstünde çalışmalar yapılmıştır.
 
 
 
